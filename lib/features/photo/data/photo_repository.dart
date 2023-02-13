@@ -1,6 +1,7 @@
 import 'package:flutter_starter/features/photo/data/photo_data_source.dart';
 import 'package:flutter_starter/features/photo/data/unsplash_photo_data_source.dart';
 import 'package:flutter_starter/features/photo/domain/photo.dart';
+import 'package:flutter_starter/features/photo/domain/photo_detail.dart';
 
 class PhotoRepository {
   final List<PhotoDataSource> dataSources = [UnsplashPhotoDataSource()];
@@ -15,5 +16,15 @@ class PhotoRepository {
       }
     }
     return photoList;
+  }
+
+  Future<PhotoDetail?> fetchDetail(String id) async {
+    PhotoDetail? detail;
+    PhotoDataSource source;
+    for (source in dataSources) {
+      detail = await source.fetchPhotoDetail(id);
+      if (detail != null) break;
+    }
+    return detail;
   }
 }

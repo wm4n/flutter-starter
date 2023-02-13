@@ -1,0 +1,8 @@
+{
+  "appTitle": "Popular Photos",
+  "createdByWho": "Created by {name}",
+  "authorPhotoTitle": "{name}'s Photo",
+  "createdAtTime": "Created at {time}",
+  "infoNotAvailable": "Not available",
+  "createdAtTimeByWho": "Created at {time} by {name}"
+}

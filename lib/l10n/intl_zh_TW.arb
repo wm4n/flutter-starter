@@ -1,0 +1,8 @@
+{
+  "appTitle": "熱門照片",
+  "createdByWho": "由 {name} 建立",
+  "authorPhotoTitle": "{name} 的照片",
+  "createdAtTime": "建立於 {time}",
+  "infoNotAvailable": "資訊不足",
+  "createdAtTimeByWho": "由 {name} 建立於 {time}"
+}
