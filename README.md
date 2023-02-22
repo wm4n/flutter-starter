@@ -22,4 +22,4 @@ This project is a starting point for a Flutter application with basic UI. It's i
 2. Clone this repo
 3. Add Unsplash key to `UnsplashPhotoDataSource.dart` file. Unslpash developer account can be registered [here](https://unsplash.com/developers).
 4. Run `flutter pub get` to fetch dependencies
-5 `flutter run` run on your taget device
+5. `flutter run` run on your taget device
