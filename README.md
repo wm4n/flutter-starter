@@ -23,3 +23,6 @@ This project is a starting point for a Flutter application with basic UI. It's i
 3. Add Unsplash key to `UnsplashPhotoDataSource.dart` file. Unslpash developer account can be registered [here](https://unsplash.com/developers).
 4. Run `flutter pub get` to fetch dependencies
 5. `flutter run` run on your taget device
+
+## Multi-language support
+This project uses Visual Studio Code and [Flutter Intl extension](https://marketplace.visualstudio.com/items?itemName=localizely.flutter-intl). It's strongly recommended.
